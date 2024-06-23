@@ -31,7 +31,7 @@ setup(
     description='A python wrapper for Fortnite-API.com',
     long_description=readme,
     long_description_content_type="text/markdown",
-    install_requires=['requests>=2.22.0', 'aiohttp>=3.6.0,<3.9.0'],
+    install_requires=['requests>=2.22.0', 'aiohttp>=3.6.0,<3.10.0'],
     python_requires='>=3.6.15',
     download_url=f'https://github.com/Fortnite-API/py-wrapper/archive/refs/tags/v{version}.tar.gz',
     keywords=['fortnite', 'fortnite-api.com', 'shop', 'cosmetics', 'fortnite api', 'fortnite shop'],
